@@ -1,0 +1,90 @@
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ touch before_commit_question.txt
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ git show
+commit eeee3dca2fbb65f385986720b776d06ad8f18d78 (HEAD -> main, origin/main)
+Author: Jodie Mullins <jmullins2460@gmail.com>
+Date:   Sun Jun 18 15:40:04 2023 -0400
+
+    hopefully this is funny
+
+diff --git a/Proper Order Screenshot 2023-06-18 152831.png b/Proper Order Screenshot 2023-06-18 152831.png
+new file mode 100644
+index 0000000..f7da6d3
+Binary files /dev/null and b/Proper Order Screenshot 2023-06-18 152831.png differ
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ git log
+commit eeee3dca2fbb65f385986720b776d06ad8f18d78 (HEAD -> main, origin/main)
+Author: Jodie Mullins <jmullins2460@gmail.com>
+Date:   Sun Jun 18 15:40:04 2023 -0400
+
+    hopefully this is funny
+
+commit 33fdf0cd89580dc8c9eea8744aabd3ed9dd60c68
+Author: JodieMullins <131491284+JodieMullins@users.noreply.github.com>
+Date:   Sun Jun 18 15:35:12 2023 -0400
+
+    Update README.md
+
+commit 5c9c5149c8cd563bf06efa9cd3f452191c6aa06b
+Author: JodieMullins <131491284+JodieMullins@users.noreply.github.com>
+Date:   Sun Jun 18 15:27:07 2023 -0400
+
+    Update README.md
+
+commit 06a32d012872592e7c456c584f0d463fb8d28a53
+Author: Jodie Mullins <jmullins2460@gmail.com>
+Date:   Sun Jun 18 15:25:26 2023 -0400
+
+     you're laughing at my anxiety hopefully
+:...skipping...
+commit eeee3dca2fbb65f385986720b776d06ad8f18d78 (HEAD -> main, origin/main)
+Author: Jodie Mullins <jmullins2460@gmail.com>
+Date:   Sun Jun 18 15:40:04 2023 -0400
+
+    hopefully this is funny
+
+commit 33fdf0cd89580dc8c9eea8744aabd3ed9dd60c68
+Author: JodieMullins <131491284+JodieMullins@users.noreply.github.com>
+Date:   Sun Jun 18 15:35:12 2023 -0400
+
+    Update README.md
+
+commit 5c9c5149c8cd563bf06efa9cd3f452191c6aa06b
+Author: JodieMullins <131491284+JodieMullins@users.noreply.github.com>
+Date:   Sun Jun 18 15:27:07 2023 -0400
+
+    Update README.md
+
+commit 06a32d012872592e7c456c584f0d463fb8d28a53
+Author: Jodie Mullins <jmullins2460@gmail.com>
+Date:   Sun Jun 18 15:25:26 2023 -0400
+
+     you're laughing at my anxiety hopefully
+
+commit 42091386521f74b1c0c662eeac646547027f5a28
+Author: Jodie Mullins <jmullins2460@gmail.com>
+Date:   Sun Jun 18 15:08:28 2023 -0400
+
+    first commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
