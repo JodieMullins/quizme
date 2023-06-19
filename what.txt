@@ -1,0 +1,132 @@
+quizme (main)
+$ git show
+
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ git add .
+warning: in the working copy of 'before_commit_question.txt', CRLF will be replaced by LF the next time Git touches it
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ git show
+commit eeee3dca2fbb65f385986720b776d06ad8f18d78 (HEAD -> main, origin/main)
+Author: Jodie Mullins <jmullins2460@gmail.com>
+Date:   Sun Jun 18 15:40:04 2023 -0400
+
+    hopefully this is funny
+
+diff --git a/Proper Order Screenshot 2023-06-18 152831.png b/Proper Order Screenshot 2023-06-18 152831.png
+new file mode 100644
+index 0000000..f7da6d3
+Binary files /dev/null and b/Proper Order Screenshot 2023-06-18 152831.png differ
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   before_commit_question.txt
+        new file:   git show and log before add or commit Screenshot 2023-06-18 164715.png
+        new file:   top
+
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ git log
+commit eeee3dca2fbb65f385986720b776d06ad8f18d78 (HEAD -> main, origin/main)
+Author: Jodie Mullins <jmullins2460@gmail.com>
+Date:   Sun Jun 18 15:40:04 2023 -0400
+
+    hopefully this is funny
+
+commit 33fdf0cd89580dc8c9eea8744aabd3ed9dd60c68
+Author: JodieMullins <131491284+JodieMullins@users.noreply.github.com>
+Date:   Sun Jun 18 15:35:12 2023 -0400
+
+    Update README.md
+
+commit 5c9c5149c8cd563bf06efa9cd3f452191c6aa06b
+Author: JodieMullins <131491284+JodieMullins@users.noreply.github.com>
+Date:   Sun Jun 18 15:27:07 2023 -0400
+
+    Update README.md
+
+commit 06a32d012872592e7c456c584f0d463fb8d28a53
+Author: Jodie Mullins <jmullins2460@gmail.com>
+Date:   Sun Jun 18 15:25:26 2023 -0400
+
+     you're laughing at my anxiety hopefully
+
+commit 42091386521f74b1c0c662eeac646547027f5a28
+Author: Jodie Mullins <jmullins2460@gmail.com>
+Date:   Sun Jun 18 15:08:28 2023 -0400
+
+    first commit
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ touch what.txt
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ git show
+commit eeee3dca2fbb65f385986720b776d06ad8f18d78 (HEAD -> main, origin/main)
+Author: Jodie Mullins <jmullins2460@gmail.com>
+Date:   Sun Jun 18 15:40:04 2023 -0400
+
+    hopefully this is funny
+
+diff --git a/Proper Order Screenshot 2023-06-18 152831.png b/Proper Order Screenshot 2023-06-18 152831.png
+new file mode 100644
+index 0000000..f7da6d3
+Binary files /dev/null and b/Proper Order Screenshot 2023-06-18 152831.png differ
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   before_commit_question.txt
+        new file:   git show and log before add or commit Screenshot 2023-06-18 164715.png
+        new file:   top
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git status, show, and log Screenshot 2023-06-18 164948.png
+        what.txt
+
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ git add .
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ git commit -m "facepalming now"
+[main 0d1527b] facepalming now
+ 6 files changed, 119 insertions(+)
+ create mode 100644 Also The Only Question I Missed Screenshot 2023-06-18 191207.png
+ create mode 100644 before_commit_question.txt
+ create mode 100644 git show and log before add or commit Screenshot 2023-06-18 164715.png
+ create mode 100644 git status, show, and log Screenshot 2023-06-18 164948.png
+ create mode 100644 top
+ create mode 100644 what.txt
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 201.00 KiB | 25.13 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/JodieMullins/quizme.git
+   eeee3dc..0d1527b  main -> main
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+jomuf@DESKTOP-JT31HCV MINGW64 ~/Documents/CODE KENTUCKY PROJECTS/quizme (main)
